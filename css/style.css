@@ -1,12 +1,12 @@
-.boton::before{
+.pseudo-elemento button::before{
     content: "Pasa por encima";
 }
 
-.boton:hover{
+.pseudo-elemento button:hover{
     background-color: green;
     color: white;
 }
 
-.boton:hover::before{
+.pseudo-elemento button:hover::before{
     content: "¡Hecho!";
 }
